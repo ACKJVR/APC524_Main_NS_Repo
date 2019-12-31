@@ -1,4 +1,7 @@
 # APC524_Main_NS_Repo
+
+[![Build Status](https://travis-ci.com/agilman0803/APC524_Main_NS_Repo.svg?branch=master)](https://travis-ci.com/agilman0803/APC524_Main_NS_Repo)
+
 The main repo for the Navier-Stokes Group in APC524.
 
 Please fork this repository for development puposes.
