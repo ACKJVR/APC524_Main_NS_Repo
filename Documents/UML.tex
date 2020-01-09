@@ -1,6 +1,13 @@
 \documentclass[border = 5pt, tikz, multi]{standalone}
-\input{tikzstyles.tex}
-\usepackage[american,siunitx]{circuitikz}
+\usepackage{tikz}
+\usepackage{commath}
+
+\usetikzlibrary{arrows,shapes,positioning,math,calc}
+\usetikzlibrary{patterns,decorations.markings,decorations.pathmorphing}
+\usetikzlibrary{calc}
+
+\renewcommand{\vec}[1]{\mathbf{\underline{#1}}}
+\newcommand{\grad}{\nabla}\usepackage[american,siunitx]{circuitikz}
 \usepackage{tikz-uml}
 \usetikzlibrary{arrows,shapes,calc,positioning}
 
